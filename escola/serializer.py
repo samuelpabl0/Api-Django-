@@ -5,4 +5,6 @@ class AlunoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Aluno
         fields = ['id','nome','rg']
+
+        
         
